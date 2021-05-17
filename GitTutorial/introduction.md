@@ -61,7 +61,5 @@ the steps to use Git in a simple daily workflow, either by yourself or working
 with others.
 
 <button class="next">
-
 [NEXT: A Git Analogy](analogy.md)
-
 </button>

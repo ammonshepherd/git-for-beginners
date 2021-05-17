@@ -75,7 +75,5 @@ Example subject lines:
 ## Reducing File Count = Git objects
 
 <button class="next">
-
 [NEXT: Using Git in Real Life](git-programs.md)
-
 </button>

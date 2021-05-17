@@ -40,7 +40,7 @@ Let’s add a picture of a fluffy bunny. Just for fun. Every good project needs 
 fluffy bunny. You’ll work it into the story somehow.
 
 <figure>
-  <img src="images/fluffy-bunny.png" alt="Fluffy Bunny"/>
+  <img src="images/fluffy-bunny.jpg" alt="Fluffy Bunny"/>
   <figcaption>Fluffy Bunny</figcaption>
 </figure>
 
@@ -298,7 +298,5 @@ their changes back into your system.
 <span class="software"> In the software development world, you could even share the whole working directory with collaborators. This would allow them to see the entire history of the code base, perhaps giving them insight into how and why you chose to code functionality in a certain way. You could even host the working directory on an accessible server so collaborators can pull the most recent version of the code from the server to their computer. When they are done making changes, they can push their code back to the server.</span>
 
 <button class="next">
-
 [Next: Git Compared](git-compared.md)
-
 </button>
