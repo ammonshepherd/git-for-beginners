@@ -1,0 +1,4 @@
+parent: 2020-12-17-093342
+author: Ammon Shepherd 
+date: 2020-12-17 09:43:42
+message: Add note to find an illustrator 
