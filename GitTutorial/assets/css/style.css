@@ -1,0 +1,129 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+h1, h2 {
+  margin-top: 24px;
+}
+h1 {
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+p {
+  padding-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color:greenyellow;
+  padding: 18px;
+  margin: 8px;
+  font-weight: bold;
+}
+button a {
+  color:darkgreen;
+
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 20px;
+  color:lightslategray;
+}
+
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  border: 1px solid #ddd;
+  margin: 4px;
+  border-radius: 4px;
+}
+nav ul li a {
+  display: block;
+  padding: 8px;
+}
+nav ul li:hover {
+  background-color: rgb(166, 194, 222);
+}
+.highlighted {
+  background-color:lightgoldenrodyellow;
+  font-weight: bold;
+}
+
+/**************************************
+* Layout
+**************************************/
+#wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .5fr 3fr 1fr;
+  gap: 22px 82px;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+}
+
+header {
+  grid-area: header;
+
+}
+
+main {
+  grid-area: content;
+}
+
+footer {
+  grid-area: footer;
+}
+
+@media screen and (min-width: 960px) {
+  #wrap {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas:
+      "header content"
+      "footer content";
+  }
+  
+  header {
+  }
+  footer {
+    align-self: end;
+  }
+}
+
+/*
+* Other general styles
+*/
+.small {
+  font-size: .8em;
+  font-weight: bold;
+}
+a small {
+  color: lightslategrey;
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
+}
