@@ -30,15 +30,11 @@ a {
   text-decoration: none;
 }
 
-button {
-  background-color:greenyellow;
-  padding: 18px;
-  margin: 8px;
-  font-weight: bold;
-}
-button a {
-  color:darkgreen;
-
+a small {
+  color:darkslategray;
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
 }
 
 figure {
@@ -122,9 +118,14 @@ footer {
   font-size: .8em;
   font-weight: bold;
 }
-a small {
-  color:darkslategray;
+
+.button {
+  background-color:greenyellow;
+  padding: 18px;
+  margin: 24px 0px;
+  font-weight: bold;
+  color:darkgreen;
   display: block;
-  font-size: 11px;
-  font-weight: normal;
+  border: 1px solid darkgreen;
+  max-width: 200px;
 }
