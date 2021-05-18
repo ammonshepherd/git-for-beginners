@@ -39,8 +39,11 @@ a small {
 
 figure {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   color:darkslategray;
+}
+figcaption {
+  margin-top: -5px;
 }
 
 nav ul {
@@ -61,8 +64,12 @@ nav ul li:hover {
 .highlighted {
   background-color:lightgoldenrodyellow;
   font-weight: bold;
+  margin-left: 24px;
 }
 
+code {
+ font-size: 1.3em; 
+}
 /**************************************
 * Layout
 **************************************/
@@ -103,8 +110,6 @@ footer {
       "footer content";
   }
   
-  header {
-  }
   footer {
     align-self: end;
   }
@@ -128,4 +133,19 @@ footer {
   display: block;
   border: 1px solid darkgreen;
   max-width: 200px;
+}
+
+.terms {
+  color:darkslategray;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2em; 
+  background-color: aliceblue;
+  padding: 4px;
+}
+
+.software {
+  margin-left: 24px;
+  padding: 14px;
+  background-color: aliceblue;
+  display:block;
 }
