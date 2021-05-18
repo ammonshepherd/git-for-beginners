@@ -130,9 +130,8 @@ footer {
   margin: 24px 0px;
   font-weight: bold;
   color:darkgreen;
-  display: block;
+  display: inline-block;
   border: 1px solid darkgreen;
-  max-width: 200px;
 }
 
 .terms {
@@ -152,4 +151,9 @@ footer {
 
 .hidden-text {
   display: none;
+}
+
+.list {
+  margin-left: 48px;
+  margin-bottom: 14px;
 }

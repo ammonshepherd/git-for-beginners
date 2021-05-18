@@ -14,4 +14,4 @@ Materials on teaching a workshop about Git.
 
 A self-paced tutorial for understanding and using Git. This is the workshop, but on your own.
 
-[Git tutorial](GitTutorial/README.md)
+[Git tutorial](GitTutorial/index.html)
