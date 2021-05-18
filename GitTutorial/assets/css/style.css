@@ -149,3 +149,7 @@ footer {
   background-color: aliceblue;
   display:block;
 }
+
+.hidden-text {
+  display: none;
+}
