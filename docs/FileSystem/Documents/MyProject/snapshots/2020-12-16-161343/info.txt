@@ -1,4 +1,0 @@
-parent: none
-author: Ammon Shepherd 
-date: 2020-12-16 16:13:43
-message: Add chapter 1, the todo list, and a picture of Fluffers
