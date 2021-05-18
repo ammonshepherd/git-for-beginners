@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Getting Git for Beginners
+email: ammon.shepherd@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This repository holds the files for a teaching a workshop for understanding and
   using Git and the files for a self-paced tutorial on understanding and using
