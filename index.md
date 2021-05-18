@@ -3,6 +3,8 @@ title: Getting Git for Beginners | Home
 layout: home
 ---
 
+## What is this?
+
 This repository holds the files for a teaching a workshop for understanding and
 using Git and the files for a self-paced tutorial on understanding and using
 Git.
