@@ -61,15 +61,25 @@ nav ul li a {
 nav ul li:hover {
   background-color: rgb(166, 194, 222);
 }
-.highlighted {
+.selected {
   background-color:lightgoldenrodyellow;
   font-weight: bold;
   margin-left: 24px;
 }
 
 code {
- font-size: 1.3em; 
+  font-family: 'Courier New', Courier, monospace;
+  overflow: auto;
+  display: block;
+  white-space: pre;
+  width: 600px;
+  background-color:aliceblue;
+  padding: 4px 12px;
+  margin: 14px 0px;
+  border-radius: 8px;
 }
+
+
 /**************************************
 * Layout
 **************************************/
@@ -99,7 +109,7 @@ footer {
 
 @media screen and (min-width: 960px) {
   #wrap {
-    width: 70%;
+    width: 80%;
     margin: auto;
     margin-bottom: 24px;
     display: grid;
@@ -114,6 +124,8 @@ footer {
     align-self: end;
   }
 }
+
+/******* end layout ************/
 
 /*
 * Other general styles
@@ -139,7 +151,8 @@ footer {
   font-family: 'Courier New', Courier, monospace;
   font-size: 1.2em; 
   background-color: aliceblue;
-  padding: 4px;
+  padding: 0px 4px;
+  border-radius: 4px;
 }
 
 .software {
@@ -147,6 +160,7 @@ footer {
   padding: 14px;
   background-color: aliceblue;
   display:block;
+  border-radius: 8px;
 }
 
 .hidden-text {

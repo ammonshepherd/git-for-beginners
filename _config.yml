@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This repository holds the files for a teaching a workshop for understanding and
   using Git and the files for a self-paced tutorial on understanding and using
   Git.
-baseurl: "git-for-beginners" # the subpath of your site, e.g. /blog
+baseurl: "/git-for-beginners" # the subpath of your site, e.g. /blog
 url: "https://ammonshepherd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ammonshepherd
 

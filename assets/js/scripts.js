@@ -15,6 +15,6 @@ const nav = document.getElementsByClassName('navlink');
 const page = document.title.split('|')[1].trim().toLowerCase().replaceAll(' ', '-');
 for (var i = 0; i < nav.length; i++) {
   if (nav.item(i).getAttribute('id') === page) {
-    nav.item(i).classList.add('highlighted');
+    nav.item(i).classList.add('selected');
   }
 }

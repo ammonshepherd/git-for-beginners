@@ -1,7 +1,8 @@
 ---
 title: Getting Git for Beginners | Git Compared
-layout: default
+layout: tutorial
 ---
+
 <h2>How Git Does It</h2>
 
 <p>Now that you have a better grasp of what goes into making a version
@@ -13,7 +14,7 @@ layout: default
 <p>Remember our snapshot folder? It was kind of distracting to see that
   folder in your working directory. When you turn a directory into a Git
   repository, Git creates a similar directory. Implementing a convention
-  used by operating systems, the folder is named <code>.git</code>. The period
+  used by operating systems, the folder is named <span class="terms">.git</span>. The period
   preceding the folder name means that, by default, your file showing
   application (File Explorer on Windows or the Finder app in MacOS) hides
   that folder from view. (You can change this preference in the settings
@@ -78,8 +79,9 @@ layout: default
   <li>Use the imperative mood in the subject line</li>
   <li>Wrap the body at 72 characters</li>
   <li>Use the body to explain what and why vs. how</li>
-  <li>https://chris.beams.io/posts/git-commit/</li>
 </ul>
+
+7 rules from [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/)
 
 <h3>Share code with others = push and pull from a central repository (GitHub, GitLab, etc.)</h3>
 <p>coming soon...</p>
