@@ -64,7 +64,10 @@ nav ul li:hover {
 .selected {
   background-color:lightgoldenrodyellow;
   font-weight: bold;
-  margin-left: 24px;
+}
+.nav-header {
+  display:block;
+  margin: 20px 0px 8px;
 }
 
 code {
@@ -130,10 +133,11 @@ footer {
 /*
 * Other general styles
 */
-.small {
+.repo {
   color:darkslategray;
   font-size: .8em;
   font-weight: bold;
+  margin: 24px 0px;
 }
 
 .button {
