@@ -145,13 +145,13 @@ To learn more about the Markdown language, see here: [https://guides.github.com/
 
 In this new file type in some text to explain what this repository contains:
 
-     
-    # My Awesome Website
-    This is the repository for my really cool website.
-    
-    You can see the real thing here: 
-    https://username.github.io/repository-name
-          
+```     
+# My Awesome Website
+This is the repository for my really cool website.
+
+You can see the real thing here: 
+https://username.github.io/repository-name
+```
 
 Save the file.
 
@@ -183,7 +183,7 @@ To commit the changes, first type in a short message, then click the check mark 
 
 Once you have committed the changes, you can push the changes to the GitHub repo. Click on the three-dots icon and select Push.
 
-![](../assets/images/github-vscode/git-push.png)
+![Three dots icon for Git Push](../assets/images/github-vscode/git-push.png)
 
 You may be asked if you wish to periodically fetch new changes from GitHub. You don't want this, so select "No".
 

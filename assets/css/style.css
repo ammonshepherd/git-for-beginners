@@ -83,7 +83,16 @@ code {
   margin: 14px 0px;
   border-radius: 8px;
 }
+pre {
+  width: 100%;
+  margin: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 
+main ul, main ol {
+  margin-left: 48px;
+}
 
 /**************************************
 * Layout
