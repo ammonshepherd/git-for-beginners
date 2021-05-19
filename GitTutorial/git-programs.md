@@ -54,3 +54,5 @@ others you allow.
 As with installing Git and VS Code, the process may change, so pull up
 [https://github.com/](https://github.com/) in a browser and find the button or link to “Sign Up” or
 create a new account.
+
+<a class="button" href="vscode-github.html">Next: VS Code and GitHub</a>
