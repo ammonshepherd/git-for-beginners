@@ -53,6 +53,17 @@ others you allow.
 
 As with installing Git and VS Code, the process may change, so pull up
 [https://github.com/](https://github.com/) in a browser and find the button or link to “Sign Up” or
-create a new account.
+create a new account. The basic steps are:
+
+- Visit [https://github.com](https://github.com) in a browser.
+- Click the Sign up button.
+- Fill in the required fields for a unique username, email and password. You can uncheck the spam box – er, I mean Email preferences checkbox.
+- Complete the "puzzle" by clicking the Verify button, then selecting the right images.
+- Finally, click the big blue Create account button.
+
+![GitHub sign up page](../assets/images/github-vscode/github-signup.png)
+
+You will need to verify your email address before you can create a new repository. Check your email for the verify link.
+
 
 <a class="button" href="vscode-github.html">Next: VS Code and GitHub</a>

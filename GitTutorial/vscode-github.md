@@ -9,7 +9,6 @@ This tutorial will guide you through connecting VS Code to your GitHub account.
 There are five steps in this tutorial:
 
 - [GitHub and VS Code](#github-and-vs-code)
-- [Create an account](#create-an-account)
 - [Create a repo](#create-a-repo)
 - [GitHub and VS Code](#github-and-vs-code-1)
 - [Set up remote Git repo](#set-up-remote-git-repo)
@@ -32,22 +31,7 @@ Using GitHub adds one more step to the normal [Git workflow](daily-workflow.html
 3.  Commit the changes
 4.  Push the commit to GitHub
 
-## Create an account
-
-The first step is to create an account at [GitHub.com](https://github.com/).
-
-- Visit [https://github.com](https://github.com) in a browser.
-- Click the Sign up button.
-- Fill in the required fields for a unique username, email and password. You can uncheck the spam box – er, I mean Email preferences checkbox.
-- Complete the "puzzle" by clicking the Verify button, then selecting the right images.
-- Finally, click the big blue Create account button.
-
-![GitHub sign up page](../assets/images/github-vscode/github-signup.png)
-
-You will need to verify your email address before you can create a new repository. Check your email for the verify link.
-
-Create a repo
--------------
+## Create a repo
 
 The next step is to create a new repository. A repository is the folder that holds the code. In our case, this is where we will put the code for building the website.
 
@@ -69,8 +53,7 @@ You are now taken to the repository page for the repository you just created. Do
 
 ![New repo page](../assets/images/github-vscode/new-repo-page.png)
 
-GitHub and VS Code
-------------------
+## GitHub and VS Code
 
 Open VS Code. You should have done some initial setting up of VS Code already. The ability to use Git is built into VS Code. There is no plug-in or extension needed to use VS Code with Git or with GitHub.
 
@@ -134,8 +117,7 @@ Or you can click on the Open Folder button and browse to the folder you selected
 
 Now VS Code is connected to the GitHub repo and we can start adding files in VS Code.
 
-Git Workflow
-------------
+## Git Workflow
 
 Now is a good time to remind you of the workflow you will be using as you create your website.
 
@@ -151,8 +133,7 @@ Simply stated, the workflow is:
 
 We'll walk through that process by adding a helpful file, called a README file that is used to explain what the repo is all about.
 
-The README file
----------------
+## The README file
 
 Back in VS Code, make a new file by clicking on the new file icon, or go to the File menu and click New File. Name the file `README.md` The `.md` is the file extension for Markdown files. GitHub will know what to do with it.
 
@@ -210,8 +191,7 @@ If you go to the GitHub website in your browser and refresh the page, you should
 
 ![GitHub repo page updated](../assets/images/github-vscode/github-repo-updated.png)
 
-All set
--------
+## All set
 
 You are now all set up with a GitHub repository and your VS Code app is now connected to the repo.
 
@@ -226,8 +206,7 @@ As a reminder, the workflow for updating your website:
 
 <a class="button" href="daily-workflow.html">Next: Daily Workflow</a>
 
-Troubleshooting Tips
---------------------
+## Troubleshooting Tips
 
 Error: If you try to clone the repository, but it fails to create the `phpmotors` folder...
 
