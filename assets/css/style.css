@@ -86,7 +86,7 @@ code {
 #wrap {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: .5fr 3fr 1fr;
+  grid-template-rows: 0fr 3fr 1fr;
   gap: 22px 82px;
   grid-template-areas:
     "header"
