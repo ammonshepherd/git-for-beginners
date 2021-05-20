@@ -12,11 +12,11 @@ submit that to the version control software as a commit.
 
 Simply stated, the workflow is:
 
-1.  Work on one aspect of the website
+1.  Work on one aspect of your project
 2.  Stage and then commit the changes
-3.  Work on another aspect of the website
+3.  Work on another aspect of your project
 4.  Stage and then commit the changes
-5.  Push the changes to your GitHub repo when done making changes
+5.  Push the changes to your GitHub repo 
 
 We'll walk through that process by adding a helpful file, called a README file
 that is used to explain what the repo is all about.
@@ -41,18 +41,22 @@ In this new file type in some text to explain what this repository contains:
 
 
 ```     
-# My Awesome Website
-This is the repository for my really cool website.
+# My Awesome Project
+This is the repository for my really cool project.
 
 You can see the real thing here: 
 https://username.github.io/repository-name
 ```
 
+Replace <span class="terms">username.github.io</span> with the domain name from
+your repository and <span class="terms">repository-name</span> with the name you
+gave your repository.
+
 Save the file.
 
-Now once you save the file, you should notice some things with Git icon on the
-left side menu. The Git icon now has a number, signifying that it now recognizes
-that one file has been changed.
+Now once you save the file, you should notice some things with the Git icon on
+the left side menu. The Git icon now has a number, signifying that it now
+recognizes that one file has been changed.
 
 ![Git icon has changed](../assets/images/github-vscode/git-icon-change.png)
 
@@ -68,7 +72,7 @@ you made any changes. This is permanent and there is no way to get the changes
 back.
 
 Before we can make a Git commit, Git needs a name and email to associate with
-the commit. This will set the name and email in Git's global settings, so you
+the commit. This will set the name and email in Gits global settings, so you
 only need to do this once. To do this, open the Terminal in VS Code
 (Terminal->New Terminal or View->Appearance->Show Panel).
 
@@ -82,10 +86,17 @@ Type in the following command (but use your email address) and hit Enter on the 
 
 ![Add name and email to Git](../assets/images/github-vscode/git-globals.png)
 
-Stage the changes for a commit by pressing the plus icon.
+Stage the changes for a commit by pressing the plus icon next to the file name.
 
-To commit the changes, first type in a short message, then click the check mark
-or use the short-cut keys (command-Enter on Mac, Ctrl-Enter on Windows).
+![Click the plus to stage](../assets/images/github-vscode/stage-the-file.png)
+
+This changes the file from the "Changes" section to the "Staging" section.
+
+To commit the changes, first type in a short message in the "Message" field,
+then click the check mark or use the short-cut keys (command-Enter on Mac,
+Ctrl-Enter on Windows).
+
+![Commit the file and add a message](../assets/images/github-vscode/commit-the-changes.png)
 
 Once you have committed the changes, you can push the changes to the GitHub
 repo. Click on the three-dots icon and select Push.
@@ -106,12 +117,11 @@ below.
 You are now all set up with a GitHub repository and your VS Code app is now
 connected to the repo.
 
-As a reminder, the workflow for updating your website:
+As a reminder, the workflow for updating your project is:
 
 1.  Make some edits to the files
 2.  Stage and then commit the changes
 3.  Push the changes to your GitHub repo
-4.  Wait for a few minutes for your changes to appear on your website
 
 
 <a class="button" href="common-git-tasks.html">Next: Common Git Tasks</a>
