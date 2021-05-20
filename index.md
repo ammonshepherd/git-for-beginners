@@ -13,10 +13,10 @@ using Git.
 
 A self-paced tutorial for understanding and using Git. This is the workshop, but on your own.
 
-<a class="button" href="GitTutorial/index.html">Git Tutorial</a>
+<a class="button" href="git-tutorial/index.html">Git Tutorial</a>
 
 ## Git Workshop
 
 Materials on teaching a workshop about Git.
 
-<a class="button" href="GitWorkshop/index.html">Git Workshop</a>
+<a class="button" href="git-workshop/index.html">Git Workshop</a>
