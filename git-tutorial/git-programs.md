@@ -3,6 +3,8 @@ title: Getting Git for Beginners | Git Programs
 layout: tutorial
 ---
 
+<span class="part">Part 2</span>
+
 ## Git Programs
 
 Now that you have learned the why of Git, you can learn the how. Git was
