@@ -159,6 +159,8 @@ footer {
   color:darkgreen;
   display: inline-block;
   border: 1px solid darkgreen;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #aaa;
 }
 
 .terms {
