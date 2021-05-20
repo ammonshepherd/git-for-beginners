@@ -63,7 +63,7 @@ create a new account. The basic steps are:
 - Complete the "puzzle" by clicking the Verify button, then selecting the right images.
 - Finally, click the big blue Create account button.
 
-![GitHub sign up page](../assets/images/github-vscode/github-signup.png)
+![GitHub sign up page](assets/images/github-vscode/github-signup.png)
 
 You will need to verify your email address before you can create a new repository. Check your email for the verify link.
 
@@ -87,24 +87,24 @@ The next step is to create a new repository. A repository is the folder that
 holds the code. In our case, this is where we will put the code for building the
 website.
 
-![Repository link](../assets/images/github-vscode/repository.png)
+![Repository link](assets/images/github-vscode/repository.png)
 
 On the GitHub website, after you have logged in,
 
 - Click on your profile icon on the top right of the page.
 - Click the Your repositories link, then click the green New button.
     - Alternatively, if you are on the profile page already, click the Repositories tab, then click the green New button.
-      ![New repo button](../assets/images/github-vscode/new-repo-button.png)
+      ![New repo button](assets/images/github-vscode/new-repo-button.png)
 - On the New repository page, name the repository anything you like. This will be part of the URL or website address.
 - Fill in a description if you like.
 - Check the "Public" option. Leave the remaining checkboxes empty.
 - Click the green Create repository button.
 
-![Create new repo page](../assets/images/github-vscode/create-new-repo.png)
+![Create new repo page](assets/images/github-vscode/create-new-repo.png)
 
 You are now taken to the repository page for the repository you just created.
 
-![New repo page](../assets/images/github-vscode/new-repo-page.png)
+![New repo page](assets/images/github-vscode/new-repo-page.png)
 
 
 <a class="button" href="vscode-github.html">Next: VS Code and GitHub</a>

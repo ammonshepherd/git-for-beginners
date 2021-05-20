@@ -28,7 +28,7 @@ File menu and click New File. Name the file <span class="terms">README.md</span>
 The <span class="terms">.md</span> is the file extension for Markdown files.
 GitHub will know what to do with it.
 
-![New file button](../assets/images/github-vscode/readme-file.png)
+![New file button](assets/images/github-vscode/readme-file.png)
 
 We'll use Markdown in this file, which is like a distant cousin to HTML. It
 makes text readable as plain text, but still has some syntax that allows
@@ -58,13 +58,13 @@ Now once you save the file, you should notice some things with the Git icon on
 the left side menu. The Git icon now has a number, signifying that it now
 recognizes that one file has been changed.
 
-![Git icon has changed](../assets/images/github-vscode/git-icon-change.png)
+![Git icon has changed](assets/images/github-vscode/git-icon-change.png)
 
 If you click on the Git icon, a sidebar opens to display Git info. In this
 panel, you can stage the changes for a commit, add a message, commit the
 changes, and even push them to the GitHub repo.
 
-![Icons for revert, stage and commit](../assets/images/github-vscode/git-icons.png)
+![Icons for revert, stage and commit](assets/images/github-vscode/git-icons.png)
 
 Note: If you discard the changes (the revert icon), then all the changes you
 made to the file will be lost and the file will revert back to how it was before
@@ -84,11 +84,11 @@ Type in the following command (but use your email address) and hit Enter on the 
 
 `git config --global user.email "youremail@email.com"`
 
-![Add name and email to Git](../assets/images/github-vscode/git-globals.png)
+![Add name and email to Git](assets/images/github-vscode/git-globals.png)
 
 Stage the changes for a commit by pressing the plus icon next to the file name.
 
-![Click the plus to stage](../assets/images/github-vscode/stage-the-file.png)
+![Click the plus to stage](assets/images/github-vscode/stage-the-file.png)
 
 This changes the file from the "Changes" section to the "Staging" section.
 
@@ -96,12 +96,12 @@ To commit the changes, first type in a short message in the "Message" field,
 then click the check mark or use the short-cut keys (command-Enter on Mac,
 Ctrl-Enter on Windows).
 
-![Commit the file and add a message](../assets/images/github-vscode/commit-the-changes.png)
+![Commit the file and add a message](assets/images/github-vscode/commit-the-changes.png)
 
 Once you have committed the changes, you can push the changes to the GitHub
 repo. Click on the three-dots icon and select Push.
 
-![Three dots icon for Git Push](../assets/images/github-vscode/git-push.png)
+![Three dots icon for Git Push](assets/images/github-vscode/git-push.png)
 
 You may be asked if you wish to periodically fetch new changes from GitHub. You
 don't want this, so select "No".
@@ -110,7 +110,7 @@ If you go to the GitHub website in your browser and refresh the page, you should
 see the README.md file is now listed as a file, and the contents are displayed
 below.
 
-![GitHub repo page updated](../assets/images/github-vscode/github-repo-updated.png)
+![GitHub repo page updated](assets/images/github-vscode/github-repo-updated.png)
 
 ## All set
 
