@@ -100,8 +100,7 @@ On the GitHub website, after you have logged in,
 
 ![Create new repo page](../assets/images/github-vscode/create-new-repo.png)
 
-You are now taken to the repository page for the repository you just created. Do
-not browse away from this page yet, as we will need a URL from this page later.
+You are now taken to the repository page for the repository you just created.
 
 ![New repo page](../assets/images/github-vscode/new-repo-page.png)
 
