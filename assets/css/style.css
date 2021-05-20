@@ -23,24 +23,32 @@ h1 {
   margin-bottom: 24px;
 }
 #home-link {
-  color:rgb(162, 235, 52);
-  text-shadow: -1px -1px 0 #770,
-  1px -1px 0 #770,
-  -1px 1px 0 #770,
-  1px 1px 0 #770;
-  letter-spacing: 0.1em;
+  color:maroon;
+  border: none;
 }
+
+a {
+  text-decoration: none;
+}
+
 p {
   padding-bottom: 8px;
 }
 
-a {
-  color:cornflowerblue;
+main a:link, main a:visited {
+  color:#3D569E;
   text-decoration: none;
   font-weight: bold;
+  border-bottom: 1px solid;
+  padding: 0px 4px;
 }
-a:visited {
-  color:orange;
+main a:focus, main a:hover {
+  color:rebeccapurple;
+  background-color:rgb(229, 204, 254)
+}
+main a:active {
+  transition: color .3s;
+  color:dodgerblue;
 }
 
 a small {
@@ -67,13 +75,17 @@ nav ul li {
   margin: 4px;
   border-radius: 4px;
 }
-nav ul li a {
+nav ul li a:link, nav ul li a:visited {
+  color:#3D569E;
   display: block;
   padding: 8px;
 }
-nav ul li:hover {
-  background-color: rgb(166, 194, 222);
+nav ul li a:focus, nav ul li a:hover {
+  color:rebeccapurple;
+  background-color:rgb(229, 204, 254)
+
 }
+
 .selected {
   background-color:lightgoldenrodyellow;
   font-weight: bold;
@@ -164,7 +176,7 @@ footer {
   margin: 24px 0px;
 }
 
-.button {
+a.button:link, a.button:visited {
   background-color:greenyellow;
   padding: 18px;
   margin: 24px 0px;
