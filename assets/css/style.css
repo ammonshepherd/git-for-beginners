@@ -22,12 +22,25 @@ h1 {
   line-height: 1;
   margin-bottom: 24px;
 }
+#home-link {
+  color:rgb(162, 235, 52);
+  text-shadow: -1px -1px 0 #770,
+  1px -1px 0 #770,
+  -1px 1px 0 #770,
+  1px 1px 0 #770;
+  letter-spacing: 0.1em;
+}
 p {
   padding-bottom: 8px;
 }
 
 a {
+  color:cornflowerblue;
   text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color:orange;
 }
 
 a small {
@@ -161,6 +174,10 @@ footer {
   border: 1px solid darkgreen;
   border-radius: 8px;
   box-shadow: 2px 2px 4px #aaa;
+}
+
+a.button:visited {
+  color: darkgreen;
 }
 
 .terms {
