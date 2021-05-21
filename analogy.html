@@ -107,9 +107,9 @@ layout: tutorial
   they all relate to a single topic or purpose. For example, you can add a
   chapter and an illustration to go along with it.</p>
 
-<p><span class="software"> If you think about coding a software project,
-    a snapshot would be a concise, individual feature, or a bug fix, or even
-    adding a single function and the code to test the function.</span></p>
+<p class="software"> If you think about coding a software project,
+  a snapshot would be a concise, individual feature, or a bug fix, or even
+  adding a single function and the code to test the function.</p>
 
 <p>Since this is a reflection of what Git does, I’ll just interlude here
   to say that a snapshot in Git speak is called a <span
@@ -132,11 +132,11 @@ layout: tutorial
   snapshot of every change you’ve made.</p>
 
 <figure>
-  <img src="assets/images/chapter3.png" alt="Screenshot of MS Word showing the text of chapter 3 of the book" />
+  <img src="assets/images/chapter3.png" alt="Screenshot of MS Word showing the text of chapter 3 of the book" aria-labelledby="ch3-text" />
   <figcaption>Chapter 3</figcaption>
 </figure>
 
-<div class="hidden-text">
+<div class="chapter-text" id="ch3-text">
   <p>Chapter 3 text</p>
   <p>Full of wonder at the sites in the wonderful field, Sheila braced her
     bovine self for the fabulous feast that awaited her. Never had she
@@ -162,11 +162,11 @@ layout: tutorial
   3?</p>
 
 <figure>
-  <img src="assets/images/chapter1-changes.png" alt="Screenshot of MS Word showing changes to chapter 1" />
+  <img src="assets/images/chapter1-changes.png" alt="Screenshot of MS Word showing changes to chapter 1" aria-labelledby="ch1-text" />
   <figcaption>Chapter 1 changes</figcaption>
 </figure>
 
-<div class="hidden-text">
+<div id="ch1-text" class="chapter-text">
   <p>Chapter 1 text</p>
   <p>In the beginning, it was a dark and stormy night.</p>
 
@@ -238,7 +238,7 @@ layout: tutorial
   branch off and reconnect, and there are many dots representing stations
   on each rail line.</p>
 
-<figure>
+<figure class="photo">
   <img src="assets/images/1000px-NYC_subway-4D.png" alt="The New York City Subway Map, many colored lines over a map of NYC" />
   <figcaption>New York City Subway Map</figcaption>
 </figure>
@@ -320,29 +320,28 @@ message: Adds plot line for Martha the moose
 
 <h3>Reducing File Count</h3>
 
-<p>As you implement this new info.txt file, you realize that if each
-  snapshot is pointing back to its “parent” that you no longer need to copy
-  all of the files from snapshot to snapshot. You really only need to
-  include the files that have changed since the last snapshot. This is good
-  news for your filesystem, as you were starting to get hundreds of files,
-  and if you start adding more images and videos (because this is a
-  futuristic, multimedia type of book), it will be great to only have one
-  copy of the file in the filesystem.</p>
+<p>As you implement this new info.txt file, you realize that if each snapshot is
+  pointing back to its “parent” that you no longer need to copy all of the files
+  from snapshot to snapshot. You really only need to include the files that have
+  changed since the last snapshot. This is good news for your filesystem, as you
+  were starting to get hundreds of files, and if you start adding more images and
+  videos (because this is a futuristic, multimedia type of book), it will be great
+  to only have one copy of the most recent version of any given file in the
+  filesystem.</p>
 
 <h3>Collaborating with others</h3>
 
-<p>Branches become even more powerful when you start collaborating with
-  others. Writing a book solo is hard, so you enlist the help of friends
-  and family to proof-read and edit your chapters. With your repo all set
-  up, you can easily hand out chapters and have people read and comment on
-  the document. You create a new branch for each edit that comes back, then
-  review, make changes, and when satisfied you merge those changes back
-  into your main timeline.</p>
+<p>Branches become even more powerful when you start collaborating with others.
+  Writing a book solo is hard, so you enlist the help of friends and family to
+  proof-read and edit your chapters. With your repo all set up, you can easily
+  hand out chapters and have people read and comment on the document. You create a
+  new branch for each edit that comes back, then review, make changes, and when
+  satisfied you merge those changes back into your main timeline.</p>
 
-<p>Here it is important to get a broad view of what you are creating.
-  Each of your snapshots are like a point on a timeline. You have a main
-  timeline where the last commit on this line is the current, up-to-date,
-  best version of what you have.</p>
+<p>Here it is important to get a broad view of what you are creating. Each of
+  your snapshots are like a point on a timeline. You have a main timeline where
+  the last commit on this line is the current, up-to-date, best version of what
+  you have.</p>
 
 <figure>
   <img src="assets/images/branches.png" alt="Several differently colored lines connect in various places" />

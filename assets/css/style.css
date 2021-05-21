@@ -208,7 +208,7 @@ a.button:visited {
 }
 
 .software {
-  margin-left: 24px;
+  margin: 24px;
   padding: 14px;
   background-color: aliceblue;
   display:block;
@@ -217,8 +217,14 @@ a.button:visited {
   border-right:steelblue 4px solid;
 }
 
-.hidden-text {
-  display: none;
+.chapter-text {
+  background-color:ghostwhite;
+  margin: 24px auto;
+  width: 70%;
+  padding: 8px;
+  border-radius: 8px;
+  border-left:blanchedalmond 4px solid;
+  border-right:blanchedalmond 4px solid;
 }
 
 .list {
