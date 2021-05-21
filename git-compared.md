@@ -3,6 +3,11 @@ title: Getting Git for Beginners | Git Compared
 layout: tutorial
 ---
 
+<figure class="photo">
+  <img src="assets/images/cta-junction.jpg" alt="CTA train junction" />
+  <figcaption><a href="https://commons.wikimedia.org/wiki/File:CTA_loop_junction.jpg">I, Daniel Schwen</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption>
+</figure>
+
 <h2>How Git Does It</h2>
 
 <p>Now that you have a better grasp of what goes into making a version

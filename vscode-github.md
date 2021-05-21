@@ -2,6 +2,12 @@
 title: Getting Git for Beginners | VS Code and Github
 layout: tutorial
 ---
+
+<figure class="photo">
+  <img src="assets/images/fox.jpg" alt="Fox laying in the snow" />
+  <figcaption><a href="https://commons.wikimedia.org/wiki/File:Vulpes_vulpes_laying_in_snow.jpg">Shiretoko-Shari Tourist Association</a>, Attribution, via Wikimedia Commons</figcaption>
+</figure>
+
 ## GitHub and VS Code
 
 This tutorial will guide you through connecting VS Code to your GitHub account.

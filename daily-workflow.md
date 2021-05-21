@@ -3,8 +3,15 @@ title: Getting Git for Beginners | Daily Workflow
 layout: tutorial
 ---
 
-## Git Workflow
+<figure class="photo">
+  <img src="assets/images/bamboo-fountain.jpg" alt="Bamboo Fountain" />
+  <figcaption>
+    <a href="https://commons.wikimedia.org/wiki/File:BambooFountain_img_2312.jpg">Dori</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+  </figcaption>
+</figure>
 
+
+## Git Workflow
 
 Normally, when working with a version control software, you want to work on
 small discrete chunks of code. After each feature or chunk is complete, you

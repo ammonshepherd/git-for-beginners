@@ -5,6 +5,11 @@ layout: tutorial
 
 <span class="part">Part 2</span>
 
+<figure class="photo">
+  <img src="assets/images/octopus.jpg" alt="Octopus sculpture" />
+  <figcaption><a href="https://commons.wikimedia.org/wiki/File:MET_LC-91_1_966-002.jpg">Metropolitan Museum of Art</a>, CC0, via Wikimedia Commons</figcaption>
+</figure>
+
 ## Git Programs
 
 Now that you have learned the why of Git, you can learn the how. Git was
