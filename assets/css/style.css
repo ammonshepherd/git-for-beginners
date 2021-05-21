@@ -119,6 +119,12 @@ main ul, main ol {
   margin-left: 48px;
 }
 
+blockquote {
+  border-left: 4px solid rebeccapurple;
+  padding: 14px;
+  background-color: lightgoldenrodyellow;
+  margin-left: 42px;
+}
 /**************************************
 * Layout
 **************************************/
