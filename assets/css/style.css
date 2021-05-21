@@ -224,13 +224,13 @@ a.button:visited {
   margin-bottom: 14px;
 }
 
-.featured-image {
+.photo {
   margin: 24px 0px;
 }
-.featured-image figcaption {
+.photo figcaption {
   margin-top: 14px;
 }
-.featured-image img {
+.photo img {
   border-radius: 14px;
   box-shadow: 2px 2px 14px 8px grey;
 }
