@@ -223,3 +223,14 @@ a.button:visited {
   margin-left: 48px;
   margin-bottom: 14px;
 }
+
+.featured-image {
+  margin: 24px 0px;
+}
+.featured-image figcaption {
+  margin-top: 14px;
+}
+.featured-image img {
+  border-radius: 14px;
+  box-shadow: 2px 2px 14px 8px grey;
+}
