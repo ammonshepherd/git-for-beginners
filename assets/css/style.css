@@ -213,6 +213,8 @@ a.button:visited {
   background-color: aliceblue;
   display:block;
   border-radius: 8px;
+  border-left:steelblue 4px solid;
+  border-right:steelblue 4px solid;
 }
 
 .hidden-text {
