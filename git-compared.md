@@ -13,6 +13,7 @@ layout: tutorial
 Now that you have a better grasp of what goes into making a version
 control/content management system, we’ll take a look at the Git equivalents.
 
+
 ### Snapshot folder = .git folder
 
 Remember our snapshot folder? It was kind of distracting to see that folder in
@@ -24,11 +25,13 @@ preceding the folder name means that, by default, your file showing application
 view. (You can change this preference in the settings and thereby reveal a great
 many hidden files and folders on your computer.)
 
+
 ### Staging folder = index file
 
 Git does a lot more than what you learned in the previous pages. You had a
 folder for staging your commits. Git abstracts out a lot of this process and
 uses a series of files that point to the correct commit.
+
 
 ### Snapshot = commit
 
@@ -36,6 +39,7 @@ In Git speak, a snapshot is called a commit; you're committing the snapshot to
 the snapshots folder, or as Git calls it, the repository. A repository acts as
 the history of your project’s files. It is a record of the changes, as recorded
 by you, every time you take a snapshot (or commit) of the working directory.
+
 
 ### Timestamp folders = SHA1 hashes
 
@@ -51,9 +55,16 @@ certain commit, you reference the SHA1 hash for that commit.
 There are a bunch of other files and folders in the .git folder, and a lot of
 functionality not discussed.
 
+
 ### Alternative Timelines/railway tracks = branches
 
-Git uses the analogy of branches for the ability to 
+Git uses the analogy of branches for the ability to create alternate pathways in
+the development of your project. Branches also make it very easy for
+collaborators to work together. One collaborator can make changes to the project
+in a branch without affecting the files for everyone else in the group. At any
+point, other collaborators can check out other branches to see if the changes
+are acceptable and then merge them into the main branch for the project. 
+
 
 ### Info.txt = commit message
 
@@ -84,13 +95,15 @@ Example subject lines:
 
 7 rules from [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/)
 
+
 ### Share code with others = push and pull from a central repository (GitHub, GitLab, etc.)
-coming soon...
 
-### Merge lines = merge branches
-coming soon...
+There are several ways to share Git repositories with collaborators. GitHub,
+GitLab, et al. provide a central place for collaborators to copy from a
+repository (pull in Git speak) or send to a repository (push in Git speak). An
+individual can also share their repository directly with their collaborators as
+simply as copying their project folder from one computer to another (such as a
+zip file shared over email).
 
-### Reducing File Count = Git objects
-coming soon...
 
 <a class="button" href="git-programs.html">NEXT: Using Git in Real Life</a>
