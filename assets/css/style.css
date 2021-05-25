@@ -120,6 +120,7 @@ pre {
 
 main ul, main ol {
   margin-left: 48px;
+  margin-bottom: 14px;
 }
 
 blockquote {
@@ -228,11 +229,6 @@ a.button:visited {
   border-radius: 8px;
   border-left:blanchedalmond 4px solid;
   border-right:blanchedalmond 4px solid;
-}
-
-.list {
-  margin-left: 48px;
-  margin-bottom: 14px;
 }
 
 .photo, .top-photo {

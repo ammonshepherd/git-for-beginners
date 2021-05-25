@@ -75,23 +75,19 @@ following sentence:
 
 Example subject lines:
 
-<ul class="list">
-  <li>Add two pages to chapter 1</li>
-  <li>Update notes with inclusion of step 4</li>
-  <li>Add the fluffy bunny picture</li>
-</ul>
+-  Add two pages to chapter 1
+-  Update notes with inclusion of step 4
+-  Add the fluffy bunny picture
 
 #### 7 “rules” of Git commit messages
 
-<ul class="list">
-  <li>Separate subject from body with a blank line</li>
-  <li>Limit the subject line to 50 characters</li>
-  <li>Capitalize the subject line</li>
-  <li>Do not end the subject line with a period</li>
-  <li>Use the imperative mood in the subject line</li>
-  <li>Wrap the body at 72 characters</li>
-  <li>Use the body to explain what and why vs. how</li>
-</ul>
+1.  Separate subject from body with a blank line
+1.  Limit the subject line to 50 characters
+1.  Capitalize the subject line
+1.  Do not end the subject line with a period
+1.  Use the imperative mood in the subject line
+1.  Wrap the body at 72 characters
+1.  Use the body to explain what and why vs. how
 
 7 rules from [https://chris.beams.io/posts/git-commit/](https://chris.beams.io/posts/git-commit/)
 
