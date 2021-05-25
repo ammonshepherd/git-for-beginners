@@ -3,7 +3,7 @@ title: Getting Git for Beginners | Git Compared
 layout: tutorial
 ---
 
-<figure class="photo">
+<figure class="top-photo">
   <img src="assets/images/cta-junction.jpg" alt="CTA train junction" />
   <figcaption><a href="https://commons.wikimedia.org/wiki/File:CTA_loop_junction.jpg">I, Daniel Schwen</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption>
 </figure>

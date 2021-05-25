@@ -3,7 +3,7 @@ title: Getting Git for Beginners | VS Code and Github
 layout: tutorial
 ---
 
-<figure class="photo">
+<figure class="top-photo">
   <img src="assets/images/fox.jpg" alt="Fox laying in the snow" />
   <figcaption><a href="https://commons.wikimedia.org/wiki/File:Vulpes_vulpes_laying_in_snow.jpg">Shiretoko-Shari Tourist Association</a>, Attribution, via Wikimedia Commons</figcaption>
 </figure>

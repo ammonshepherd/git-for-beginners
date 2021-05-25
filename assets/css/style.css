@@ -235,13 +235,18 @@ a.button:visited {
   margin-bottom: 14px;
 }
 
-.photo {
+.photo, .top-photo {
   margin: 24px 0px;
 }
-.photo figcaption {
+.photo figcaption, .top-photo figcaption {
   margin-top: 14px;
 }
-.photo img {
+.photo img{
   border-radius: 14px;
   box-shadow: 2px 2px 14px 8px grey;
+}
+
+.top-photo img {
+  border-radius: 24px;
+  box-shadow: 2px 2px 4px 2px grey;
 }

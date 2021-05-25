@@ -5,7 +5,7 @@ layout: tutorial
 
 <span class="part">Part 2</span>
 
-<figure class="photo">
+<figure class="top-photo">
   <img src="assets/images/octopus.jpg" alt="Octopus sculpture" />
   <figcaption><a href="https://commons.wikimedia.org/wiki/File:MET_LC-91_1_966-002.jpg">Metropolitan Museum of Art</a>, CC0, via Wikimedia Commons</figcaption>
 </figure>
