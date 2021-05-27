@@ -4,8 +4,8 @@ layout: tutorial
 ---
 
 <figure class="top-photo">
-  <img src="assets/images/fox.jpg" alt="Fox laying in the snow" />
-  <figcaption><a href="https://commons.wikimedia.org/wiki/File:Vulpes_vulpes_laying_in_snow.jpg">Shiretoko-Shari Tourist Association</a>, Attribution, via Wikimedia Commons</figcaption>
+  <img src="assets/images/connections.jpg" alt="Fiber optic hub" />
+  <figcaption>Photo by <a href="https://unsplash.com/@larskienle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lars Kienle</a> on <a href="https://unsplash.com/s/photos/connection?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></figcaption>
 </figure>
 
 ## GitHub and VS Code

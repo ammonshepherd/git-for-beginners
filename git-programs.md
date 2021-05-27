@@ -6,8 +6,8 @@ layout: tutorial
 <span class="part">Part 2</span>
 
 <figure class="top-photo">
-  <img src="assets/images/octopus.jpg" alt="Octopus sculpture" />
-  <figcaption><a href="https://commons.wikimedia.org/wiki/File:MET_LC-91_1_966-002.jpg">Metropolitan Museum of Art</a>, CC0, via Wikimedia Commons</figcaption>
+  <img src="assets/images/sewing-tools-flatlay-knolling.jpg" alt="Sewing tools laid out at right angles" />
+  <figcaption><a href="https://burst.shopify.com/photos/sewing-tools-flatlay-knolling">Sewing tools, Flat Lay, Knolling</a></figcaption>
 </figure>
 
 ## Git Programs

@@ -4,9 +4,10 @@ layout: tutorial
 ---
 
 <figure class="top-photo">
-  <img src="assets/images/common-mynah.jpg" alt="A common Asian starling" />
+  <img src="assets/images/freeway.jpg" alt="A big, giant freeway interchange leading into the city" />
   <figcaption>
-<a href="https://commons.wikimedia.org/wiki/File:Common_Mynah_(%E0%A4%A1%E0%A4%BE%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A5%87_%E0%A4%B0%E0%A5%81%E0%A4%AA%E0%A5%80)_2.jpg">Creepanta</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+Photo by <a href="https://unsplash.com/@linghua?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">HUA LING</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
   </figcaption>
 </figure>
 

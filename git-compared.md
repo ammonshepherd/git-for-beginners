@@ -4,8 +4,8 @@ layout: tutorial
 ---
 
 <figure class="top-photo">
-  <img src="assets/images/cta-junction.jpg" alt="CTA train junction" />
-  <figcaption><a href="https://commons.wikimedia.org/wiki/File:CTA_loop_junction.jpg">I, Daniel Schwen</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons</figcaption>
+  <img src="assets/images/polaroid-cool-cam.jpg" alt="Pink Polaroid Cool Cam" />
+  <figcaption><a href="https://commons.wikimedia.org/wiki/File:Polaroid_Cool_Cam.jpg">Lëa-Kim Châteauneuf</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</figcaption>
 </figure>
 
 ## How Git Does It
