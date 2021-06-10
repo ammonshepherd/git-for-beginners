@@ -135,7 +135,7 @@ As a reminder, the workflow for updating your project is:
 You can now use this set up and your knowledge of Git to make and host your own
 website using GitHub. 
 
-Follow this tutorial: [Make a website](https://ammonshepherd.github.io/make-a-website/)
+Follow this tutorial: <a href="https://ammonshepherd.github.io/make-a-website/" target="_blank">Make a website</a>
 
 You can skip the first step (1. Software) and the first part of the second step
 (2. GitHub), since this tutorial is the same thing!
