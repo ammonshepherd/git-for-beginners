@@ -130,5 +130,3 @@ As a reminder, the workflow for updating your project is:
 2.  Stage and then commit the changes
 3.  Push the changes to your GitHub repo
 
-
-<a class="button" href="common-git-tasks.html">Next: Common Git Tasks</a>
