@@ -130,3 +130,12 @@ As a reminder, the workflow for updating your project is:
 2.  Stage and then commit the changes
 3.  Push the changes to your GitHub repo
 
+## Make a website
+
+You can now use this set up and your knowledge of Git to make and host your own
+website using GitHub. 
+
+Follow this tutorial: [Make a website](https://ammonshepherd.github.io/make-a-website/)
+
+You can skip the first step (1. Software) and the first part of the second step
+(2. GitHub), since this tutorial is the same thing!
